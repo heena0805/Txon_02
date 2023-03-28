@@ -1,0 +1,45 @@
+body{
+    background-image: linear-gradient(to top left,indigo,grey);
+}
+
+#container {
+    width: 300px;
+    height: 500px;
+    margin: 63px auto;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#display {
+    font-size: 28px;
+    margin: 8px 8px;
+    padding: 8px 2px;
+    background-color: grey;
+    border-radius: 7px;
+}
+
+#numbers {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 5px;
+    justify-items: center;
+    margin-top: 37px;
+}
+
+.number:hover {
+    background-color: black;
+}
+
+.number {
+    width: 66px;
+    height: 49px;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 16px;
+}
+
+#b {
+    padding: 10px 63px;
+}
